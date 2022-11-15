@@ -1,0 +1,71 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  screen and (max-width: 992px) {
+  .container{
+    display: flex;
+   justify-content: center;
+   
+  } 
+  .hero-section{
+    height: 1100px;
+    width: 100%;
+  }
+  .hero-section .hero-context {
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    
+  }
+  .hero-section .hero-context h1 {
+    font-size: 30px;
+} 
+.hero-section .hero-img img {
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .blog-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .blog-container .schedule {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #fff;
+    width: 800px;
+    margin-left: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+  }
+  .blog-container .schedule a{
+     border: 1px solid rgb(163, 160, 160);
+  }
+  .blog-container .match-blog {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer{
+    height: 650px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+  }
+  footer ul{
+    display: flex;
+    flex-direction: column;
+
+  }
+}

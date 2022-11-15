@@ -1,0 +1,30 @@
+.flag-container{
+    width: 312px;
+    height: 242px;
+    margin: 10px;
+    border: 1px solid rgb(165,165,165);
+    border-radius: 10px;
+    .flags{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    gap: 10px;
+    margin-top: 40px;
+
+    span{
+        font-size: 18px;
+    }
+    }
+    h3{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    p{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        color: rgb(163, 156, 156);
+    }
+}
